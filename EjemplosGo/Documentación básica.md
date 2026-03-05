@@ -11,15 +11,15 @@ func main() {
 
 }
 ```
-En Go, el concepto de **paquete** es la unidad básica de organización.
+En Go, el concepto de paquete es la unidad básica de organización.
 
- package main: Indica al compilador de Go que este archivo debe compilarse como un **ejecutable** y no como una librería compartida.
+ package main: Indica al compilador de Go que este archivo debe compilarse como un ejecutable y no como una librería compartida.
     
 import fmt: Importa el paquete "Format", que contiene funciones para la entrada/salida de texto (I/O).
     
 func main(): Es el punto de entrada único. Cuando ejecutas el programa, el sistema busca esta función para empezar.
     
- En Go, la llave de apertura `{` **debe** estar en la misma línea que la declaración de la función o el bucle, de lo contrario, el compilador arrojará un error.
+ En Go, la llave de apertura `{` debe estar en la misma línea que la declaración de la función o el bucle, de lo contrario, el compilador arrojará un error.
 
 
 ## **Asignación de variable
@@ -107,7 +107,7 @@ Las funciones son ciudadanos de primera clase en Go (pueden pasarse como variabl
 
 Parámetros: Se definen como nombre tipo. Si varios parámetros seguidos son del mismo tipo, puedes agruparlos: func sumar(a, b int).
     
-Retorno: El tipo de dato que devuelve la función se coloca justo antes de la llave de apertura {.
+Retorno: El tipo de dato que devuelve la función se coloca justo antes de la llave de apertura `{`.
     
 Múltiples retornos: Go permite devolver varios valores (muy usado para devolver un resultado y un error simultáneamente): func division(a, b int) (int, error).
 
