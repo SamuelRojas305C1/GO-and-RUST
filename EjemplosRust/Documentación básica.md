@@ -7,11 +7,11 @@ fn main() {
 
 }
 ```
-En Rust, el punto de entrada es siempre la función `main`.
+En Rust, el punto de entrada es siempre la función main.
 
 fn: Palabra clave para declarar una función.
     
-println!: Fíjate en el signo de exclamación !. Esto indica que no es una función normal, sino una **macro**. Las macros en Rust se expanden en código más complejo durante la compilación para permitir cosas que las funciones normales no pueden (como un número variable de argumentos).
+println!: Fíjate en el signo de exclamación !. Esto indica que no es una función normal, sino una macro. Las macros en Rust se expanden en código más complejo durante la compilación para permitir cosas que las funciones normales no pueden (como un número variable de argumentos).
     
 Compilación: A diferencia de lenguajes interpretados, Rust se compila a código máquina puro.
 
@@ -40,7 +40,7 @@ let: Declara una variable. Por defecto, una vez que le asignas un valor, no pued
     
 mut: Si necesitas que una variable cambie, debes ser explícito y usar let mut.
     
-Inferencia de tipos: Rust es de tipado estático, pero casi siempre adivina qué tipo de dato estás usando (como `i32` para enteros o &str para texto) sin que tengas que escribirlo.
+Inferencia de tipos: Rust es de tipado estático, pero casi siempre adivina qué tipo de dato estás usando (como i32 para enteros o &str para texto) sin que tengas que escribirlo.
 
 
 ## **Ciclos
@@ -80,11 +80,11 @@ fn main() {
 
 }
 ```
-Rust distingue claramente entre **sentencias** (instrucciones que terminan en ;) y **expresiones** (bloques de código que devuelven un valor).
+Rust distingue claramente entre sentencias (instrucciones que terminan en ;) y expresiones (bloques de código que devuelven un valor).
 
 Firma de función Los tipos de parámetros (a: i32) y el retorno -> i32 son obligatorios en las funciones.
 
-Retorno implícito: En Rust, no necesitas escribir `return` si el valor que quieres devolver es la última expresión de la función y **no tiene punto y coma**. Esto hace el código más limpio.
+Retorno implícito: En Rust, no necesitas escribir return si el valor que quieres devolver es la última expresión de la función y no tiene punto y coma. Esto hace el código más limpio.
 
  a + b es una expresión (devuelve valor). a + b; es una sentencia (no devuelve nada).
 
@@ -115,5 +115,5 @@ Sin paréntesis: Al igual que en Go, no los necesita, lo que mejora la lectura.
 
 Asignación por if: Puedes hacer algo como: let resultado = if x > 5 { "grande" } else { "pequeño" };
 
-Tipos estrictos: La condición debe ser obligatoriamente un booleano. Rust no considera que el número `1` sea "true" o `0` sea "false".
+Tipos estrictos: La condición debe ser obligatoriamente un booleano. Rust no considera que el número 1 sea "true" o 0 sea "false".
 
