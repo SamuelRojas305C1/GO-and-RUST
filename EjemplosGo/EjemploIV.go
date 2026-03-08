@@ -1,5 +1,5 @@
-Package
-import fmt
+Package main
+import "fmt"
 
 func sumar(a int, b int) int {
 	return a + b

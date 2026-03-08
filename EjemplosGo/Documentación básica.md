@@ -3,7 +3,7 @@
 ```
 package main
 
-import fmt
+import "fmt"
 
 func main() {
 
@@ -26,7 +26,7 @@ func main(): Es el punto de entrada único. Cuando ejecutas el programa, el sist
 ```
 Package main
 
-import fmt
+import "fmt"
 
   
 
@@ -57,7 +57,7 @@ Tipado estático: Una vez que una variable es definida como `int`, no puede camb
 ```
 Package main
 
-import fmt
+import "fmt"
 
   
 
@@ -83,9 +83,9 @@ El for es la única palabra clave para iteraciones en Go, lo que reduce la compl
 
 ## **Funciones
 ```
-Package
+Package main
 
-import fmt
+import "fmt"
 
   
 
@@ -116,7 +116,7 @@ Múltiples retornos: Go permite devolver varios valores (muy usado para devolver
 ```
 package main
 
-import fmt
+import "fmt"
 
   
 
