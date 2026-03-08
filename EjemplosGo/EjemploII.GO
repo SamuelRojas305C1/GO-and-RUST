@@ -1,5 +1,5 @@
 Package main
-import fmt
+import "fmt"
 
 func main() {
 	var lenguaje string = "Go"
